@@ -3,13 +3,13 @@
 HumanA::HumanA(std::string _name, Weapon &_wpn)  : wpn(_wpn){
 	this->name = _name;
 	// this->wpn = _wpn;
-	std::cout << "HumanA constructor was called " << std::endl;
+	std::cout<< GREEN << "HumanA constructor was called "<< RESET << std::endl;
 }
 
 void HumanA::attack() {
-	std::cout << name << " attacks with their " << wpn.getType() << std::endl;
+	std::cout << std::endl << name << " attacks with their " << wpn.getType() << std::endl << std::endl;
 }
 
 HumanA::~HumanA() {
-	std::cout << "HumanA destructor was called " << std::endl;
+	std::cout<< RED << "HumanA destructor was called "<< RESET << std::endl;
 }

@@ -1,7 +1,7 @@
 #include "Weapon.hpp"
 
 Weapon::Weapon (std::string _type) {
-	std::cout << "Weapon constructor was called" << std::endl;
+	std::cout<< GREEN << "Weapon constructor was called"<< RESET << std::endl;
 	this->type = _type;
 };
 
@@ -14,5 +14,5 @@ const std::string& Weapon::getType() const {
 }
 
 Weapon::~Weapon () {
-	std::cout << "Weapon destructor was called" << std::endl;
+	std::cout << RED << "Weapon destructor was called"<< RESET << std::endl;
 };
