@@ -2,7 +2,7 @@ NAME= replace
 CC= c++
 RM= rm -rf
 FLAGS= -Werror -Wextra -Wall -std=c++98
-SRC= main.cpp
+SRC= main.cpp replace.cpp
 OBJ=$(SRC:.cpp=.o)
 
 all: $(NAME)

@@ -1,0 +1,4 @@
+This is a old string.
+If the file does not exist, it oldschool will be created.
+"my_file.txt", ios::in old school | ios::out
+new old
