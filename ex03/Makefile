@@ -1,4 +1,4 @@
-NAME= weapon
+NAME= ex03
 CC= c++
 RM= rm -rf
 FLAGS= -Werror -Wextra -Wall -std=c++98
