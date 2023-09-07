@@ -3,5 +3,5 @@
 int main() {
 	Harl myObj;
 
-	myObj.complain("ERROR");
+	myObj.complain("DEBUG");
 }
