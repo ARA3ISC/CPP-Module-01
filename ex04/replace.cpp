@@ -4,7 +4,7 @@ void	writeToFile(std::string fileName, std::string line, std::string s1, std::st
 
 	std::fstream fileObj;
 
-	int index = line.find( s1);
+	size_t index = line.find(s1);
 	if (index != std::string::npos) {
 		line.erase(index, s1.length());
 		line.insert(index, s2);

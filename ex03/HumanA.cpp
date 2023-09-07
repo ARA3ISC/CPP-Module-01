@@ -2,7 +2,6 @@
 
 HumanA::HumanA(std::string _name, Weapon &_wpn)  : wpn(_wpn){
 	this->name = _name;
-	// this->wpn = _wpn;
 	std::cout<< GREEN << "HumanA constructor was called "<< RESET << std::endl;
 }
 

@@ -1,14 +1,14 @@
 NAME= ex01
-CC= c++
+CPP= c++
 RM= rm -rf
-FLAGS= -Werror -Wextra -Wall -std=c++98
+CPPFLAGS= -Werror -Wextra -Wall -std=c++98
 SRC= main.cpp Zombie.cpp zombieHorde.cpp
 OBJ=$(SRC:.cpp=.o)
 
 all: $(NAME)
 
 $(NAME) : $(OBJ)
-	$(CC) $(FLAGS) $(OBJ) -o $(NAME)
+	$(CPP) $(CPPFLAGS) $(OBJ) -o $(NAME)
 
 clean:
 	$(RM) $(OBJ)
